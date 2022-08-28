@@ -1,7 +1,7 @@
 package com.rest.order.repositories;
 
-import com.rest.order.entities.Order;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.rest.order.models.Order;
+import org.springframework.data.mongodb.repository.MongoRepository;
 
-public interface OrderRepository extends JpaRepository<Order, Integer> {
+public interface OrderRepository extends MongoRepository<Order, Integer> {
 }

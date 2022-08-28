@@ -1,6 +1,6 @@
 package com.rest.order.services;
 
-import com.rest.order.entities.Order;
+import com.rest.order.models.Order;
 import com.rest.order.repositories.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
